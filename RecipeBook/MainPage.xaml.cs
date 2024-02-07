@@ -1,4 +1,6 @@
-﻿namespace RecipeBook
+﻿using RecipeBook.ViewModels;
+
+namespace RecipeBook
 {
     public partial class MainPage : ContentPage
     {
@@ -6,6 +8,7 @@
 
         public MainPage()
         {
+            BindingContext = new MainViewModel();
             InitializeComponent();
         }
 

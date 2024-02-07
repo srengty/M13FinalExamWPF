@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
+
 namespace RecipeBook
 {
     public static class MauiProgram
